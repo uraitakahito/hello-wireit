@@ -4,8 +4,17 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "start": "node dist/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "wireit",
+    "bundle": "wireit"
+  },
+  "wireit": {
+    "build": {
+      "command": "tsc"
+    },
+    "bundle": {
+      "command": "rollup -c",
+      "dependencies": ["build"]
+    }
   },
   "author": "",
   "license": "Apache-2.0",
