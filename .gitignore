@@ -4,4 +4,9 @@
 coverage
 /dist
 node_modules
-
+/bundle.js
+/*.d.ts
+/*.d.ts.map
+/*.js.map
+/helloworld.js
+/index.js
