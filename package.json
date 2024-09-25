@@ -1,0 +1,14 @@
+{
+  "name": "hello-wireit",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "Apache-2.0",
+  "description": "",
+  "devDependencies": {
+    "wireit": "^0.14.9"
+  }
+}
