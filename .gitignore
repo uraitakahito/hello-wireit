@@ -1,5 +1,6 @@
 .DS_Store
 .Trash-*
+.wireit
 coverage
 node_modules
 
